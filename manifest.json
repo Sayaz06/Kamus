@@ -1,0 +1,22 @@
+{
+  "name": "Kamus Hafalan Random",
+  "short_name": "KamusRandom",
+  "start_url": "/Kamus/index.html",
+  "scope": "/Kamus/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/Kamus/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Kamus/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
