@@ -174,7 +174,7 @@ function renderElemen(p, ele, eid) {
 }
 
 document.getElementById("btnTambahPerkataan").onclick = ()=>{
-    const p = prompt("Masukkan perkataan:");
+    const p = prompt("Masukkan Nama Tempat:");
     if(!p) return;
     data.push({ id: genId(), perkataan: p, elemen: [] });
     saveData();
@@ -219,3 +219,4 @@ document.getElementById("importFile").onchange = e => {
 
 /* Init */
 loadData();
+
